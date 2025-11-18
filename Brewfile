@@ -33,6 +33,8 @@ cask "docker"
 cask "google-chrome"
 cask "bruno"
 cask "zed"
+cask "figma"
+cask "ngrok"
 
 # Optional
 cask "iterm2"
