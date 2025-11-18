@@ -5,5 +5,5 @@ This repository provides the standard Texture baseline setup for new macOS lapto
 ## Usage
 
 ```bash
-bash <(curl -fsSL https://texturehq.github.io/laptop-setup/short)
+bash <(curl -fsSL https://texturehq.github.io/laptop-setup/bootstrap.sh)
 ```
