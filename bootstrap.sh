@@ -12,6 +12,9 @@ if [ -f /usr/local/bin/brew ]; then
   eval "$(/usr/local/bin/brew shellenv)"
 fi
 
+echo "📥 Fetching Brewfile..."
+curl -fsSL https://raw.githubusercontent.com/TextureHQ/laptop-setup/main/Brewfile -o Brewfile
+
 echo "📦 Installing Texture baseline apps..."
 brew bundle install --file=./Brewfile
 
