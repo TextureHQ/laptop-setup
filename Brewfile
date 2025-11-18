@@ -24,6 +24,7 @@ brew "wget"
 
 # Apps
 cask "1password"
+cask "1password-cli"
 cask "slack"
 cask "tailscale"
 cask "cursor"
