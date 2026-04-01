@@ -1,0 +1,15 @@
+# Dev tooling
+brew "node"
+brew "yarn"
+brew "go"
+brew "uv"
+
+# Dev apps
+cask "cursor"
+cask "visual-studio-code"
+cask "docker"
+cask "zed"
+cask "bruno"
+cask "ngrok"
+cask "iterm2"
+cask "font-jetbrains-mono"
