@@ -1,8 +1,6 @@
-# Texture macOS baseline setup
-
-tap "homebrew/bundle"
-tap "homebrew/core"
-tap "homebrew/cask"
+# Texture macOS baseline setup (core + engineering)
+# This file is kept for backwards compatibility with `brew bundle`.
+# For profile-based installs, use bootstrap.sh --profile <profile>.
 
 # Core CLI utilities
 brew "git"
@@ -14,28 +12,31 @@ brew "tree"
 brew "watch"
 brew "httpie"
 brew "tldr"
+brew "wget"
+
+# Core apps — everyone gets these
+cask "1password"
+cask "1password-cli"
+cask "slack"
+cask "tailscale"
+cask "google-chrome"
+cask "notion"
+cask "claude"
+cask "chatgpt"
+cask "figma"
 
 # Dev tooling
 brew "node"
 brew "yarn"
 brew "go"
 brew "uv"
-brew "wget"
 
-# Apps
-cask "1password"
-cask "1password-cli"
-cask "slack"
-cask "tailscale"
+# Dev apps
 cask "cursor"
 cask "visual-studio-code"
 cask "docker"
-cask "google-chrome"
-cask "bruno"
 cask "zed"
-cask "figma"
+cask "bruno"
 cask "ngrok"
-
-# Optional
 cask "iterm2"
 cask "font-jetbrains-mono"
